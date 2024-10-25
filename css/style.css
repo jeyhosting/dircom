@@ -20,6 +20,10 @@
     position: relative;
 }
 
+.gtco-section-overflow {
+    overflow: initial !important; 
+    position: relative;
+}
 
 .gtco-accordion-content ul li a:hover, .gtco-accordion-content ul li a:focus, .gtco-accordion-content ul li a:active {
   color: #FF9600;
@@ -40,6 +44,8 @@
     border-color: #337ab7 !important;
     border: #337ab7 !important; 
 }
+
+
 
 /* =======================================================
 *
@@ -2021,7 +2027,7 @@ form label {
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev {
   opacity: 1 !important;
-  left: 40px !important;
+  left: 5px !important;
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev:before {
   text-indent: 0px !important;
@@ -2038,7 +2044,7 @@ form label {
   content: "\e929";
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-next {
-  right: 40px !important;
+  right: 5px !important;
   opacity: 1 !important;
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-next:before {
